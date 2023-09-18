@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-image: url('../IMG/01.beachshowcase.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.btn {
+font-size: 18px;
+text-decoration: none;
+border: solid 2px #926239;
+border-radius: 5px ;
+padding: 10px ;
+
+}
+
+.rodape {
+    background-color: #926239;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

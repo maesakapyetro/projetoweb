@@ -1,0 +1,19 @@
+body {
+    background-image: url('../IMG/fundinhomario.jpg');
+background-size: cover;
+}
+
+figure {
+    text-align: center;
+    border: solid red;
+    border-radius: 20px;
+    width: 500px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+img {
+    width: 400px;
+}

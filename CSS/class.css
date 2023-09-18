@@ -1,0 +1,24 @@
+body {
+    background-color: silver;
+}
+
+p {
+    color: green;
+}
+
+p.corPar {
+
+    color: chocolate;
+}
+.corFundo {
+
+    background-color: darkcyan;
+}
+#titulo01 {
+    color: red;
+text-align: center;
+}
+
+
+
+

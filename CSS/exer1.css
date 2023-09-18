@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+background-image:url('../IMG/fundinhomario.jpg') ;
+}
+
+.aAzul {
+    color: blue;
+}
+
+.cVermelho {
+    color: red;
+}
+
+.cAmarelo {
+    color: yellow;
+}
+
+.cVerde {
+    color: green;
+}
+
+.cRosa {
+    color:pink;
+}
+
+.fonte1 {
+    font-size: smaller;
+    text-align: justify;
+}
+
+.fonte2 {
+ font-size: x-small;
+ background-color: aquamarine;
+ text-align: justify;
+}
+
+img {
+ width:300px ;   
+}

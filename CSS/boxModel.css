@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    border: solid black 25px;
+    padding: 30px;
+    margin: 25px;
+}
+
+p {
+    border: solid 2px black;
+    padding: 25px;
+    margin: 25px;
+}
