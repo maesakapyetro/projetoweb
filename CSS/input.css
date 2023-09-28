@@ -1,0 +1,34 @@
+/* (:) chama uma pseudoclasse */
+/* (:focus) é utilizado no elemento input */
+
+#name:focus {
+    background-color: pink;
+}
+
+/* (active) seleciona links ativos não visitados */
+.active:active {
+    color: yellow;
+}
+
+/* (visited) seleciona link ativos visitados */
+.visited:visited {
+    color: green;
+}
+
+/* (link) seleciona todos os links não visitados */
+.link:link {
+    color: aqua;
+}
+
+/* (--) cria uma variável */
+.root:root {
+    --cor-prim: #012E40;
+    --cor-sec: #025159;
+    --cor-terc: #038C8C;
+    --font-prim: Verdana;
+    --font-sec: 'Inclusive Sans', sans-serif;
+}
+
+body {
+    background-color: var(--cor-prim);
+}

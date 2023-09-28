@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* (display:;)serve para alinhar a tag main axis */
+/* (flex-direction:;) define a orientação; */
+/* propriedades: row (linha esquerda) */
+/* row-reverse (linha direita) */
+/* colum (coluna em cima) */
+/* colum-reverse (coluna em baixo) */
+/* (flex-wrap:;) quebra de linha */
+/*propriedades: now-wrap (não faz a quebra de linha) */
+/* wrap-reverse (dispostos em múltiplas linhas de baixo para cima) */
+/* (flex-flow:;) configurar a direção e a múltiplas linhas de uma vez; Essa é uma abreviação de flex-direction e flex-wrap podendo definir os dois sem precisar abrir duas propriedades*/
+/* (justify-content) valores:flex-start (itens exibidos no início do flex-direction) flex-end (itens exibidos no final da flex-direction) space-evenly (espaçamento igual de dois itens) space-aroud (os itens são distribuídos uniformemente na linha com tamanhos de espaços iguais ao redor do item (direito e esquerdo) space-between (os itens são distribuídos uniformemente na linha) beseline (os itens são alinhados assim como suas linhas são alinhadas)  )*/
+/*  */
+
+
+.container {
+    background-color: blanchedalmond;
+    max-width: 500px;
+    height: 500px;
+    border: solid red;
+    display: flex;
+
+
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: solid palevioletred 3px;
+    margin: 5px;
+}
+
+/* inimigo do flex-shrink é o flex-grow */
+
+#item1 {
+    background-color: pink;
+    /* order: 3; */
+    /* flex-basis: 30%; */
+    /* flex-shrink: 1; */
+    flex-grow: 1;
+}
+
+#item2 {
+    background-color: paleturquoise;
+    /* order: 1; */
+    /* flex-basis: 30%; */
+    /* flex-shrink: 1; */
+    flex-grow: 2;
+}
+
+#item3 {
+    background-color: palegreen;
+    /* order: 1; */
+    /* flex-basis: 30%; */
+    /* flex-shrink: 1; */
+    flex-grow: 3;
+}

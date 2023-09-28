@@ -1,0 +1,7 @@
+p::after {
+    content: "Olá, mundo!";
+}
+
+h1::before {
+content: "Esse vem antes do conteúdo.";
+}

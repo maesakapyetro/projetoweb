@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #025159;
+}
+
+header {
+    background-color: #038C8C;
+    font-size: 40px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: #03A696;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #038C8C;
+
+}
